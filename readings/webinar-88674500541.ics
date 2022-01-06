@@ -1,0 +1,63 @@
+BEGIN:VCALENDAR
+PRODID:-//zoom.us//iCalendar Event//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+CLASS:PUBLIC
+BEGIN:VTIMEZONE
+TZID:America/New_York
+LAST-MODIFIED:20201011T015911Z
+TZURL:http://tzurl.org/zoneinfo-outlook/America/New_York
+X-LIC-LOCATION:America/New_York
+BEGIN:DAYLIGHT
+TZNAME:EDT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:EST
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20211117T140015Z
+DTSTART;TZID=America/New_York:20211117T090000
+DTEND;TZID=America/New_York:20211117T170000
+SUMMARY:RARGOM Annual Science Meeting 2021
+RRULE:FREQ=DAILY;WKST=SU;UNTIL=20211119T220000;INTERVAL=1
+UID:ZOOM88674500541
+TZID:America/New_York
+DESCRIPTION:Join from a PC\, Mac\, iPad\, iPhone or Android device:\n    
+ Please click this URL to join. https://maine.zoom.us/j/88674500541?pwd=W
+ GdrWk5PbjNIWGloY0NzTndYK2E3Zz09\n    Passcode: 015824\n\nOr One tap mobi
+ le:\n    +13017158592\,\,88674500541# US (Washington DC)\n    +131262667
+ 99\,\,88674500541# US (Chicago)\n\nOr join by phone:\n    Dial(for highe
+ r quality\, dial a number based on your current location):\n        US: 
+ +1 301 715 8592  or +1 312 626 6799  or +1 646 876 9923  or +1 669 900 6
+ 833  or +1 253 215 8782  or +1 346 248 7799  or +1 408 638 0968 \n    We
+ binar ID: 886 7450 0541\n    International numbers available: https://ma
+ ine.zoom.us/u/kbIKiwSyIu\n\n\nOr an H.323/SIP room system:\n    H.323: \
+ n        162.255.37.11 (US West)\n        162.255.36.11 (US East)\n     
+    115.114.131.7 (India Mumbai)\n        115.114.115.7 (India Hyderabad)
+ \n        213.19.144.110 (Amsterdam Netherlands)\n        213.244.140.11
+ 0 (Germany)\n        103.122.166.55 (Australia Sydney)\n        103.122.
+ 167.55 (Australia Melbourne)\n        149.137.40.110 (Singapore)\n      
+   64.211.144.160 (Brazil)\n        149.137.68.253 (Mexico)\n        69.1
+ 74.57.160 (Canada Toronto)\n        65.39.152.160 (Canada Vancouver)\n  
+       207.226.132.110 (Japan Tokyo)\n        149.137.24.110 (Japan Osaka
+ )\n    Webinar ID: 886 7450 0541\n    Passcode: 015824\n\n    SIP: 88674
+ 500541@zoomcrc.com\n    Passcode: 015824\n
+LOCATION:https://maine.zoom.us/j/88674500541?pwd=WGdrWk5PbjNIWGloY0NzTndY
+ K2E3Zz09
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR
